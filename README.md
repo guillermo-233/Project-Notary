@@ -18,20 +18,20 @@ Debes tener instalado Python 3.x y el middleware **OpenSC** en tu sistema operat
 #### Windows
 1. Clona o descarga el repositorio y abre una terminal en la carpeta del proyecto.
 2. Crea el entorno virtual: `python -m venv venv`
-3. Activa el entorno: `venv\Scripts\activate`
+3. Activa el entorno: `.venv\Scripts\activate`
 4. Instala las dependencias: `pip install -r requirements.txt`
 
 #### macOS
 1. Clona o descarga el repositorio y abre un terminal en la carpeta del proyecto.
 2. Crea el entorno virtual: `python3 -m venv venv`
-3. Activa el entorno: `source venv/bin/activate`
+3. Activa el entorno: `source.venv/bin/activate`
 4. Instala las dependencias: `pip install -r requirements.txt`
 *(Nota: Asegúrate de tener instalado OpenSC, por ejemplo, vía Homebrew: `brew install opensc`)*.
 
 #### Linux
 1. Clona o descarga el repositorio y abre una terminal en la carpeta del proyecto.
 2. Crea el entorno virtual: `python3 -m venv venv`
-3. Activa el entorno: `source venv/bin/activate`
+3. Activa el entorno: `source.venv/bin/activate`
 4. Instala las dependencias: `pip install -r requirements.txt`
 *(Nota: Instala OpenSC si no lo tienes: `sudo apt-get install opensc`)*.
 
